@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desenvolvimento de Aplicativos Web</title>
+    <meta charset="utf8">
+    <!-- css do syntax highlight -->
+    <link rel="stylesheet" href="../../../highlight/styles/default.css">
+    <!-- css do modelo de colunas -->
+    <link rel="stylesheet" href="../../../css/960gs.css">
+    <!-- css customizado para o texto -->
+    <link rel="stylesheet" href="../../../css/style.css">
+
+  </head>
+  <body>
+    <h1>Prova Trimestral 02: Banco de Dados</h1>
+    <p class="subtitle">
+      Desenvolvimento de Aplicativos Web
+    </p>
+    <p class="info">
+      João Eduardo Montandon <br>
+      Setor de Informática - COLTEC/MG <br>
+      Valor: 15 pontos
+    </p>
+  </div>
+  <div id="content">
+    <div class="grid_12">
+      <h2>Instruções</h2>
+
+      <ul>
+        <li>Prova individual, com consulta (aos arquivos listados abaixo) e em silêncio sepulcral.</li>
+        <ul>
+          <li>Material desenvolvido durante as aulas.</li>
+          <li>Exercícios realizados em sala de aula.</li>
+          <li><a href="http://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html">Documentação MySQL (Seções 13.1 e 13.2).</a></li>
+        </ul>
+        <li>Desligue o celular, chat ou qualquer outro tipo de mídia social. O não cumprimento deste item acarretará em uma penalidade de 5 pontos por incidência.</li>
+        <li>É proibida a utilização de material de consulta de terceiros, bem como o empréstimo de material.</li>
+        <li>Questões com soluções copiadas da Internet ou subsidiadas por terceiros serão anuladas.</li>
+        <li>A prova deve ser entregue via Dropbox: Crie uma Pasta chamada <b>SEU_NOME_T2</b>.</li>
+        <li>Duração da prova: 7:30 às 11:30 (4hrs).</li>
+      </ul>
+    </div>
+
+    <div class="grid_12">
+      <h2>Federação Estadual de Tênis</h2>
+
+      <p>
+        <a href="images/daniel-san.jpg">Daniel San</a> era um grande tenista, no entanto ficou encantado com a área de informática (mais especificamente na parte de desenvolvimento de sistemas), e resolveu dedicar seu tempo para adquirir conhecimento nessa nova área.
+      </p>
+      <p>
+        A fim de praticar seus conhecimentos adquiridos, Daniel San decidiu fazer um sistema web que gerencie a federação de tênis de seu estado. Basicamente, este sistema irá prover suporte aos campeonatos realizados pela federação, de forma a informar o resultado de campeonatos anteriores, os campeonatos que estão por vir, e o ranking dos atletas cadastrados na federação.
+      </p>
+      <p>
+        Após vários diálogos com os diretores da federação, Daniel San chegou ao seguinte modelo relacional que represente o sistema:
+      </p>
+      <img src="images/diagrama_relacional_tenis.png" alt="" />
+      <p>
+        Devido ao tamanho do sistema, Daniel San requisitou sua ajuda para implementar os scripts SQL necessários para correto funcionamento do sistema. Mais especificamente, ele pediu que você implementasse as seguintes consultas:
+      </p>
+
+      <ol>
+        <li>Scripts DML para criação da estrutura de dados (2,5)</li>
+        <li>Listar os campeonatos que foram concluídos a mais de dois anos atrás, junto da premiação de cada um. (0,5)</li>
+        <li>Listar os tenistas junto de sua categoria (0,5)</li>
+        <li>Listar o público total de cada quadra (0,5).</li>
+        <li>Listar, para cada jogo, o nome e a pontuação de cada tenista, além do nome do campeonato e o tipo da quadra. (1,0)</li>
+        <li>Listar quantos jogos cada tenista jogou por campeonato (1,0).</li>
+        <li>Listar o nome, a média de público e a premiação de cada campeonato (1,0).</li>
+        <li>Listar quantos jogos cada jogador jogou por ano, ordenada pelo ano de forma descrescente (1,5).</li>
+        <li>Listar a média de público em cada quadra nos jogos que ocorreram ano passado (2014), ordenada pelas que tiveram maior média (1,5).</li>
+        <li>Listar as tenistas mulheres que ganharam pelo menos 3 jogos (1,5).</li>
+        <li>Listar o tenista mais assediado pela torcida (aquele que possui a melhor média de público em seus jogos) (1,5).</li>
+        <li>Listar o nome e a quantidade de vitórias do tenista mais vitorioso na história de todos os campeonatos (2,0).</li>
+        <!-- <li>O ranking dos tenistas é contabilizado pela soma de suas vitórias nos últimos dois anos de campeonato. Listar o ranking dos 10 melhores tenistas (2,5).</li> -->
+      </ol>
+
+      <p>
+        <b>Atenção às observações abaixo:</b>
+        <ul>
+          <li>Toda tabela deve ter atrelado ao seu ID, uma propriedade de auto incremento</li>
+          <li>Atenção aos tipos e obrigatoriedade dos campos!!</li>
+          <li>Qualquer situação que não estiver contemplada no modelo do banco de dados deve ser discutida prontamente com o professor.</li>
+          <li><a href="script_data.sql
+            ">Scripts auxiliares</a></li>
+        </ul>
+      </p>
+    </div>
+  </body>
+</html>
