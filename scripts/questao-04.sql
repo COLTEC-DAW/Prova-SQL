@@ -1,0 +1,1 @@
+SELECT count(film_id) FROM inventory;
